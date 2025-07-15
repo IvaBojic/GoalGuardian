@@ -1,0 +1,27 @@
+[
+  {
+    "health_coach": "HC_2",
+    "study_id": "patient_5",
+    "date": "2025-07-14"
+  },
+  {
+    "health_coach": "HC_1",
+    "study_id": "patient_4",
+    "date": "2025-06-22"
+  },
+  {
+    "health_coach": "HC_3",
+    "study_id": "patient_3",
+    "date": "2025-07-03"
+  },
+  {
+    "health_coach": "HC_2",
+    "study_id": "patient_2",
+    "date": "2025-05-22"
+  },
+  {
+    "health_coach": "HC_1",
+    "study_id": "patient_1",
+    "date": "2025-07-04"
+  }
+]

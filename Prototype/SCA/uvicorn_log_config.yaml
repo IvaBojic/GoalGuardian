@@ -1,0 +1,25 @@
+version: 1
+formatters:
+  default:
+    format: '%(asctime)s | %(levelname)s | %(message)s'
+
+handlers:
+  access:
+    class: logging.FileHandler
+    formatter: default
+    filename: /app/logs/access.log
+  default:
+    class: logging.FileHandler
+    formatter: default
+    filename: /app/logs/error.log
+
+loggers:
+  uvicorn:
+    handlers: [default]
+    level: INFO
+  uvicorn.access:
+    handlers: [access]
+    level: INFO
+  uvicorn.error:
+    handlers: [default]
+    level: INFO

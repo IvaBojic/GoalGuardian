@@ -1,0 +1,61 @@
+[
+  {
+    "patient_id": "patient_1",
+    "notes": {
+      "preferred_name": "Daniel",
+      "hobbies": [
+        "photography"
+      ],
+      "family": [
+        "eldest son recently started university overseas",
+        "lives with his wife and their two teenage sons"
+      ],
+      "friends": [],
+      "travel": [
+        "family trip to Penang"
+      ]
+    },
+    "chat_history": [
+      {
+        "role": "assistant",
+        "content": "Hi Daniel! It\u2019s great to see you today. Before we dive in, I\u2019d love to hear\u2014how are you feeling right now, especially in terms of your energy?"
+      },
+      {
+        "role": "user",
+        "content": "I\u2019m feeling pretty good\u2014energy\u2019s been better since the Penang trip. Swimming daily really helped, and I\u2019ve been keeping up with my stretches and meds."
+      },
+      {
+        "role": "assistant",
+        "content": "It sounds like you\u2019re in a good mood today! Can you tell me a bit more about what\u2019s made you feel this way?"
+      },
+      {
+        "role": "user",
+        "content": "Yeah, I think getting back into a routine helped. The swimming in Penang cleared my head, and sticking to my meds and stretches has made me feel more in control."
+      },
+      {
+        "role": "assistant",
+        "content": "It sounds like getting back into your routine has really been grounding for you, and I can hear how much swimming and staying consistent with your meds and stretches have supported your sense of control and wellbeing. That\u2019s wonderful to hear.\n\nLooking back over the past week, was there a particular moment\u2014big or small\u2014that made you feel especially positive about your health?"
+      },
+      {
+        "role": "user",
+        "content": "Yeah, actually\u2014on Wednesday I swapped my usual fried noodles for brown rice without really thinking about it. It felt natural, not forced. That small choice made me feel like I\u2019m really building new habits."
+      },
+      {
+        "role": "assistant",
+        "content": "That\u2019s fantastic, Daniel! It\u2019s such a great sign when healthier choices start to feel easy and automatic\u2014like they\u2019re just part of who you are now. It really shows the progress you\u2019ve made.\n\nOut of curiosity, did you notice any difference in how you felt after having the brown rice instead?"
+      },
+      {
+        "role": "user",
+        "content": "Yeah, I did actually. I didn\u2019t feel as heavy or sluggish after lunch. It was a small change, but I felt more steady through the afternoon\u2014less of that post-meal crash."
+      },
+      {
+        "role": "assistant",
+        "content": "That\u2019s really encouraging to hear, Daniel! Noticing a difference in your energy after a small change like that shows just how much those everyday choices can add up. It must feel good to experience the benefits so quickly\u2014especially that steady energy through the afternoon. Little wins like this can be so motivating as you keep building on your habits. \n\nIs there anything else from the past week that you\u2019re proud of or that felt like a step forward?"
+      },
+      {
+        "role": "user",
+        "content": "Yeah\u2014on Sunday I actually cooked dinner for the family. Just something simple, but it felt good to be the one putting together a healthier meal. Everyone enjoyed it, and I felt proud just following through on that goal."
+      }
+    ]
+  }
+]

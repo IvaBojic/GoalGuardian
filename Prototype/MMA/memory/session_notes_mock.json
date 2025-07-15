@@ -1,0 +1,103 @@
+{
+  "patient_1": {
+    "patient_id": "patient_1",
+    "input": [
+      "Client, Daniel, returned from a family trip to Penang. He shared that he enjoyed swimming in the hotel pool daily.\nHe lives with his wife and their two teenage sons. His eldest son recently started university overseas.\nHe enjoys photography and often brings his camera on trips.\n\nGoals Review:\n(1) Took medications consistently every morning \u2014 100% adherence.\n(2) Switched from fried noodles to brown rice at lunch 3 times a week (Success: 90%).\n(3) Added 10 minutes of stretching before bed, 4 days a week.\n\nGoals setting:\n1. Continue to take medications 7 days a week.\n2. Homecook dinner on the weekend, once per week (e.g., Sundays).\n3. Increase the duration of jogging to 45 mins, once per week, every Saturday morning.\n"
+    ],
+    "output": {
+      "preferred_name": "Daniel",
+      "hobbies": [
+        "photography"
+      ],
+      "family": [
+        "eldest son recently started university overseas",
+        "lives with his wife and their two teenage sons"
+      ],
+      "friends": [],
+      "travel": [
+        "family trip to Penang"
+      ]
+    }
+  },
+  "patient_2": {
+    "patient_id": "patient_2",
+    "input": [
+      "Client, Aisha, is a retired teacher who enjoys reading detective novels and knitting. She mentioned planning a trip to Japan with her book club in September.\nShe is close to her younger sister who lives nearby, and they meet twice a week for walks.\n\nMedication adherence has been consistent. She finds it easier to take morning doses with breakfast.\n\nGoals setting:\n1. Walk 40 minutes with her sister every Tuesday and Thursday morning.\n2. Eat two servings of vegetables at dinner, five days per week.\n3. Practice mindful breathing for 5 minutes before sleep, every night.\n"
+    ],
+    "output": {
+      "preferred_name": "Aisha",
+      "hobbies": [
+        "reading detective novels",
+        "knitting"
+      ],
+      "family": [
+        "close to her younger sister who lives nearby, and they meet twice a week for walks"
+      ],
+      "friends": [
+        "book club"
+      ],
+      "travel": [
+        "planning a trip to Japan with her book club in September"
+      ]
+    }
+  },
+  "patient_3": {
+    "patient_id": "patient_3",
+    "input": [
+      "Client, Marcus, is married and has one child in primary school. He works long hours but wants to prioritize his health.\nHe enjoys playing guitar in his free time and occasionally jams with colleagues.\nHe recently returned from a short work trip to Kuala Lumpur.\n\nGoals Review:\n(1) Replaced evening snacks with fruit, 4 days a week.\n(2) Did brisk walking 2 times a week, but struggled to do more due to work.\n\nGoals setting:\n1. Schedule 30 minutes of guitar playing on Wednesday and Sunday evenings for stress relief.\n2. Walk 30 minutes during lunch break, 3 days a week (Mon, Wed, Fri).\n3. Prepare a vegetable-based dinner on Saturday nights with his wife.\n"
+    ],
+    "output": {
+      "preferred_name": "Marcus",
+      "hobbies": [
+        "playing guitar"
+      ],
+      "family": [
+        "is married and has one child in primary school"
+      ],
+      "friends": [
+        "occasionally jams with colleagues"
+      ],
+      "travel": [
+        "recently returned from a short work trip to Kuala Lumpur"
+      ]
+    }
+  },
+  "patient_4": {
+    "patient_id": "patient_4",
+    "input": [
+      "Client, Liyana, lives with her parents and helps care for her elderly father. She recently felt demotivated but wants to re-engage.\nShe enjoys baking and watching historical dramas.\n\nShe forgot evening doses on 3 occasions but wants to use new methods for reminders.\n\nGoals setting:\n1. Use a visual chart on the fridge to track daily medication intake, with morning and evening checkmarks.\n2. Bake a healthy dessert (low sugar) once per week and share with family.\n3. Watch 1 motivational health video from the app every weekend, and write a reflection in her notebook.\n"
+    ],
+    "output": {
+      "preferred_name": "Liyana",
+      "hobbies": [
+        "watching historical dramas",
+        "baking"
+      ],
+      "family": [
+        "helps care for her elderly father",
+        "lives with her parents",
+        "share with family"
+      ],
+      "friends": [],
+      "travel": []
+    }
+  },
+  "patient_5": {
+    "patient_id": "patient_5",
+    "input": [
+      "Client, Farid, is in his mid-40s and just completed Ramadan. He lives with his wife and teenage daughter. His family is very supportive.\nHe loves calligraphy and recently joined a weekly community class.\nHe struggled with food temptations at night markets but made healthier choices.\n\nMedication: Maintained 100% adherence during fasting month.\nDiet: Managed to include vegetables in 5 out of 7 pre-dawn meals last week.\n\nGoals setting:\n1. Walk 30 minutes in the evening on Monday and Thursday.\n2. Add two types of vegetables to iftar meals at least 4 times a week.\n3. Attend calligraphy class every Saturday and walk home instead of taking the bus.\n"
+    ],
+    "output": {
+      "preferred_name": "Farid",
+      "hobbies": [
+        "calligraphy"
+      ],
+      "family": [
+        "lives with his wife and teenage daughter",
+        "His family is very supportive"
+      ],
+      "friends": [],
+      "travel": []
+    }
+  }
+}

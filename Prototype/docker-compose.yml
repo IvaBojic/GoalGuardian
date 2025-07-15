@@ -1,0 +1,75 @@
+services:
+  mma:
+    build: ./MMA
+    ports:
+      - "8001:8000"
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+    volumes:
+      - ./MMA/memory:/app/memory
+      - ./MMA/logs:/app/logs
+    command: >
+      sh -c "uvicorn app:app --host 0.0.0.0 --port 8000 2>> /app/logs/error.log | tee /app/logs/print.log"
+
+  soa:
+    build: ./SOA
+    ports:
+      - "8002:8000"
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+    volumes:
+      - ./SOA/memory:/app/memory
+      - ./SOA/logs:/app/logs
+    command: >
+      sh -c "uvicorn app:app --host 0.0.0.0 --port 8000 2>> /app/logs/error.log | tee /app/logs/print.log"
+
+  gra:
+    build: ./GRA
+    ports:
+      - "8003:8000"
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+    volumes:
+      - ./GRA/memory:/app/memory
+      - ./GRA/logs:/app/logs
+    command: >
+      sh -c "uvicorn app:app --host 0.0.0.0 --port 8000 2>> /app/logs/error.log | tee /app/logs/print.log"
+
+  sca:
+    build: ./SCA
+    ports:
+      - "8004:8000"
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+    volumes:
+      - ./SCA/memory:/app/memory
+      - ./SCA/logs:/app/logs
+    command: >
+      sh -c "uvicorn app:app --host 0.0.0.0 --port 8000 2>> /app/logs/error.log | tee /app/logs/print.log"
+
+  ssa:
+    build: ./SSA
+    ports:
+      - "8005:8000"
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+    volumes:
+      - ./SSA/memory:/app/memory
+      - ./SSA/logs:/app/logs
+    command: >
+      sh -c "uvicorn app:app --host 0.0.0.0 --port 8000 2>> /app/logs/error.log | tee /app/logs/print.log"
+
+  oa:
+    build: ./OA
+    ports:
+      - "8006:8000"
+      - "8502:8501"
+    depends_on:
+      - mma
+      - gra
+      - soa
+      - sca
+      - ssa
+    volumes:
+      - ./OA/memory:/app/memory
+      - ./OA/logs:/app/logs
