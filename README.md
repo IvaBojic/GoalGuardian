@@ -20,3 +20,35 @@ GoalGuardian includes six specialized agents, each fulfilling a specific role in
 - **Session Summarization Agent (SSA):** Generates structured reports for human health coaches based on the session transcript.
 
 Together, these agents embody a hybrid AI-human collaboration framework that is modular, extensible, and suitable for deployment in real-world healthcare environments.
+
+## Running the GoalGuardian prototype
+
+### Prerequisites
+
+To run the GoalGuardian system locally, ensure you have a valid OpenAI API key in your `.env` file:
+
+```env
+OPENAI_API_KEY=your-key-here
+```
+
+### Starting the MAS System
+
+To start the multi-agent system using Docker, run:
+
+```bash
+COMPOSE_BAKE=true docker compose up --build
+```
+
+Once the system is running, open your browser and navigate to:
+
+```
+http://localhost:8502/
+```
+
+If the system is running on a different machine than the one with the browser, ensure that port forwarding is properly configured or use an SSH tunnel to access the interface.
+
+```
+ssh -L 8502:localhost:8502 username@ip_address
+```
+
+Then open your browser on the local machine and go to http://localhost:8502/ to access the GoalGuardian's web interface.
